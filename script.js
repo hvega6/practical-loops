@@ -47,6 +47,13 @@ function parseCSV(data) {
         });
 
         result.push(obj); // Add the object to the result array
+    }
+
+    return result; // Return the array of objects
+}
+
+// Example usage
+const csvData1 = `Name,Age,Occupation
 Alice,30,Engineer
 Bob,25,Designer
 Charlie,35,Manager`;
